@@ -1,11 +1,85 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test web</title>
+    <title>Halaman Portofolio</title>
 </head>
 <body>
-    <h1>Test</h1>
+
+    <!-- Section 1: Menu -->
+    <table border="1" width="100%">
+        <tr>
+            <td><a href="#home">Home</a></td>
+            <td><a href="#about">Tentang</a></td>
+            <td><a href="#biodata">Biodata</a></td>
+            <td><a href="#portfolio">Portofolio</a></td>
+            <td><a href="#kontak">Kontak</a></td>
+        </tr>
+    </table>
+
+    <!-- Section 2: Judul di kiri, gambar di kanan -->
+    <table border="0" width="100%" id="about">
+        <tr>
+            <td width="60%">
+                <h1>Selamat Datang di Website Saya</h1>
+                <p>Ini adalah contoh header dengan dua kolom. kolom kiri berisi Teks seperti ini.</p>
+                <button>Pelajari lebih lanjut</button>
+            </td>
+            <td width="40%">
+                <img src="https://via.placeholder.com/200" alt="Foto Profil">
+            </td>
+        </tr>
+    </table>
+
+    <!-- Section 3: Biodata dengan 6 box -->
+    <table border="1" width="100%" id="biodata">
+        <tr>
+            <td colspan="3" align="center">
+                <h2>About Me</h2>
+                <p>A brief introduction about my self</p>
+            </td>
+        </tr>
+        <tr>
+            <td>Nama</td>
+            <td>Putra Azril</td>
+            <td>Tempat, Tanggal Lahir</td>
+            <td>Garut, 1 Januari 2000</td>
+            <td>Jenis Kelamin</td>
+            <td>Laki-laki</td>
+        </tr>
+        <tr>
+            <td>Alamat</td>
+            <td>Jl. Merdeka No. 10</td>
+            <td>Email</td>
+            <td>putra@example.com</td>
+            <td>Telepon</td>
+            <td>0812-3456-7890</td>
+        </tr>
+    </table>
+
+    <!-- Section 4: Portfolio -->
+    <h2 id="portfolio">Portofolio</h2>
+    <table border="1" width="100%">
+        <tr>
+            <th>Judul Proyek</th>
+            <th>Deskripsi</th>
+            <th>Link</th>
+        </tr>
+        <tr>
+            <td>Website Toko Online</td>
+            <td>Membuat website untuk jualan online menggunakan HTML dan JavaScript.</td>
+            <td><a href="#">Lihat Proyek</a></td>
+        </tr>
+        <tr>
+            <td>Desain Poster Event</td>
+            <td>Membuat desain poster acara festival musik lokal.</td>
+            <td><a href="#">Lihat Proyek</a></td>
+        </tr>
+        <tr>
+            <td>Aplikasi To-Do List</td>
+            <td>Aplikasi pengingat tugas harian berbasis web.</td>
+            <td><a href="#">Lihat Proyek</a></td>
+        </tr>
+    </table>
+
 </body>
 </html>
